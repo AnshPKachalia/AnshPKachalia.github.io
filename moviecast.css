@@ -1,0 +1,46 @@
+/*Setting background color to match page theme*/
+body{
+    background-color: black;
+}
+
+/*Using flex and assigning 25% to split the page into 4 equal columns*/
+.row1{
+    display:flex;
+}
+
+.column1{
+    flex:25%;
+    padding:5px;
+}
+img {
+    width:100%;
+}
+
+.row2{
+    display:flex;
+    
+}
+.column2{
+    flex:25%;
+    padding:5px;
+}
+
+.row3{
+    display:flex;
+    
+}
+.column3{
+    flex:25%;
+    padding:5px;
+}
+  
+/*Giving text white color to maintain color scheme*/
+
+p{
+    color:white;
+}
+
+a{
+    color:white;
+}
+    

@@ -1,0 +1,198 @@
+/*Setting the header*/
+header {
+    background-color:black;
+    
+}
+header::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+/*Placing the Comm Lab logo*/
+.container{
+    margin=0;
+
+}
+
+.logo{
+    float:left;
+    height:100px;
+    width:150px; 
+    padding-left: 40px;
+}
+
+/*Placing and sizing the title image*/
+.title{
+   position:absolute;
+    top:10px;
+    left:500px;
+    height:95px;
+    width:250px;
+}
+
+/*Placing and sizing the navigation bar elements*/
+nav ul{
+    margin:0;
+    padding:0px 10px;
+    list-style:none;
+}
+nav li {
+    display:inline-block;
+    text-align: center;
+    margin-left:30px;
+    padding-top: 40px;
+    float:right;
+    
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+}
+
+/*Adding some interactivity*/
+nav a:hover {
+    background-color:dimgray;
+  
+  
+}
+
+/*Styling the dropdown button and using hover to add interactivity*/
+.dropdown{
+    display:inline-block;
+    text-align: center;
+    float:right;
+    overflow:hidden;
+    padding-top: 40px;
+}
+
+.dropbutton {
+    border:none;
+    outline:none;
+    color:white;
+    background-color: inherit;
+    font-family:inherit;
+    margin:0;
+    font-size: 1em;
+   
+}
+
+.nav a:hover, .dropdown:hover .dropbutton{
+    background-color: dimgray
+        
+}
+
+.dropdowncontent{
+    display:none;
+    position:absolute;
+    background-color:black;
+    z-index: 1;
+}
+
+.dropdowncontent a{
+    float: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.dropdowncontent a:hover{
+    background-color: dimgray
+}
+
+.dropdown:hover .dropdowncontent{
+    display:block;
+}
+
+/*Sizing and placing the main video, using absolute positioning so it overlaps with all the backgroundimages*/
+.video{
+    height=500px;
+    width:500px;
+    position:absolute;
+    top:225px;
+    left:350px;
+}
+
+/*Placing and sizing all background images individually so they are placed exactly where needed*/
+
+#australianbushfire{
+    height:100px;
+    width:640px;
+}
+#trumpimpeachment{
+    height:100px;
+    width:640px;
+    position:absolute;
+    top:310px;
+    left:0px;
+    
+}
+#olympics{
+    height:100px;
+    width:640px;
+    position:absolute;
+    top:410px;
+    left:0px;
+    
+}
+#royalfamily{
+    height:100px;
+    width:640px;
+    position:absolute;
+    top:210px;
+    left:0px;
+    
+}
+#stockmarket{
+    height:100px;
+    width:640px;
+    position:absolute;
+    top:110px;
+    right:0px;
+    
+}
+#georgefloyd{
+    height:100px;
+    width:640px;
+    position:absolute;
+    top:210px;
+    right:0px;
+    
+}
+#twitter{
+    height:100px;
+    width:640px;
+    position:absolute;
+    top:310px;
+    right:0px;
+}
+#cyclone{
+    height:100px;
+    width:640px;
+    position:absolute;
+    top:410px;
+    right:0px;
+    
+}
+#USIRAN{
+    height:100px;
+    width:640px;
+    position:absolute;
+    top:510px;
+    right:0px;
+    
+}
+#harvey{
+    height:100px;
+    width:630px;
+    position:absolute;
+    top:510px;
+    left:0px;
+    
+}
+
+/*Could have used percentages to size and place images but used pixels through trial and error to make the process slightly easier*/
+

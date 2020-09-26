@@ -1,0 +1,55 @@
+/*Setting color to match website color scheme*/
+body{
+    background-color:black;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    text-decoration:underline;
+    font-size: 3em;
+}
+
+h2{
+    color:white;
+}
+p{
+    color:white;
+    text-align: justify;
+    font-size:1.5em;
+}
+
+/*using absolute position to override any image positioning and to fix is position where I want*/
+.mail{
+    width:200px;
+    height:200px;
+}
+
+.instagram{
+    position:absolute;
+    left:375px;
+    top:530px;
+    width:200px;
+    height:200px;
+}
+
+.facebook{
+    position:absolute;
+    left:725px;
+    top:530px;
+    width:200px;
+    height:200px;
+}
+
+.twitter{
+    position:absolute;
+    left:1050px;
+    top:530px;
+    width:200px;
+    height:200px;
+}
+
+/*Formatting back button color to match color scheme*/
+.back{
+    color:white;
+}
