@@ -122,14 +122,15 @@ nav a:hover {
     height:100px;
     width:640px;
 }
-#stockmarket{
+
+#trumpimpeachment{
     height:100px;
     width:640px;
     position:absolute;
-    top:310px;
-    left:0px;
-    
+    top:110px;
+    right:0px;
 }
+
 #olympics{
     height:100px;
     width:640px;
@@ -146,14 +147,17 @@ nav a:hover {
     left:0px;
     
 }
-#trumpimpeachment{
+
+    
+#stockmarket{
     height:100px;
     width:640px;
     position:absolute;
-    top:110px;
-    right:0px;
+    top:310px;
+    left:0px;
     
 }
+
 #georgefloyd{
     height:100px;
     width:640px;
