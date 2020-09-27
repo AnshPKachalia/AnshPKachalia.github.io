@@ -21,32 +21,32 @@ p{
 
 /*using absolute position to override any image positioning and to fix is position where I want*/
 .mail{
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
 }
 
 .instagram{
     position:absolute;
     left:375px;
     top:530px;
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
 }
 
 .facebook{
     position:absolute;
     left:725px;
     top:530px;
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
 }
 
 .twitter{
     position:absolute;
     left:1050px;
     top:530px;
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
 }
 
 /*Formatting back button color to match color scheme*/
