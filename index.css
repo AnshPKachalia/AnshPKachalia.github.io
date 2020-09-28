@@ -107,6 +107,7 @@ nav a:hover {
     display:block;
 }
 
+
 /*Sizing and placing the main video, using absolute positioning so it overlaps with all the backgroundimages*/
 .video{
     height=500px;
