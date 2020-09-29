@@ -117,87 +117,58 @@ nav a:hover {
     left:350px;
 }
 
-/*Placing and sizing all background images individually so they are placed exactly where needed*/
+/*Using flex to space out images on the webpage properly*/
 
-#australianbushfire{
-    height:100px;
-    width:640px;
+.row1{
+    display:flex;
 }
 
-#trumpimpeachment{
-    height:100px;
-    width:640px;
-    position:absolute;
-    top:110px;
-    right:0px;
+.column1{
+    flex:50%;
+   
 }
 
-#olympics{
-    height:100px;
-    width:640px;
-    position:absolute;
-    top:410px;
-    left:0px;
+
+.row2{
+    display:flex;
     
 }
-#royalfamily{
-    height:100px;
-    width:640px;
-    position:absolute;
-    top:210px;
-    left:0px;
+.column2{
+    flex:50%;
     
 }
 
+.row3{
+    display:flex;
     
-#stockmarket{
-    height:100px;
-    width:640px;
-    position:absolute;
-    top:310px;
-    left:0px;
+}
+.column3{
+    flex:50%;
     
+}
+    
+
+.row4{
+    display:flex;
+    
+}
+.column4{
+    flex:50%;
+   
 }
 
-#georgefloyd{
-    height:100px;
-    width:640px;
-    position:absolute;
-    top:210px;
-    right:0px;
+.row5{
+    display:flex;
     
 }
-#twitter{
-    height:100px;
-    width:640px;
-    position:absolute;
-    top:310px;
-    right:0px;
-}
-#cyclone{
-    height:100px;
-    width:640px;
-    position:absolute;
-    top:410px;
-    right:0px;
-    
-}
-#USIRAN{
-    height:100px;
-    width:640px;
-    position:absolute;
-    top:510px;
-    right:0px;
-    
-}
-#harvey{
-    height:100px;
-    width:630px;
-    position:absolute;
-    top:510px;
-    left:0px;
-    
+.column5{
+    flex:50%;
+   
 }
 
+img{
+    height:100px;
+    width:625px;
+}
 /*Could have used percentages to size and place images but used pixels through trial and error to make the process slightly easier*/
 
