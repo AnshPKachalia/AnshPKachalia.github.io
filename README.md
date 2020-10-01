@@ -1,6 +1,6 @@
-#Documentation
+# Documentation
 
-##30MFF
+## 30MFF
 The 30MFF webpage was a way to showcase an in-class activity, in which we shot and edited a short movie/video in 30 minutes each. As a group, we thought that one thing all of us had in common was that much like the rest of the World, each of our home countries had been going through a lockdown. So we decided to make a video on the things people do when stuck at home during lockdown/quarantine.
 
 
