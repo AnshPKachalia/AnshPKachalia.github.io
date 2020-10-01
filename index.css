@@ -121,6 +121,7 @@ nav a:hover {
 
 .row1{
     display:flex;
+    padding-top: 10px;
 }
 
 .column1{
